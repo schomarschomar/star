@@ -1,3 +1,3 @@
 # sgamm
 
-https://schomarschomar.github.io/sgamm/
+https://schomarschomar.github.io/star
