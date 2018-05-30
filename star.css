@@ -19,6 +19,6 @@
     border:1px solid #d3d3d3;
 }
 
-.body {
-    background: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8"
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8");
 }
