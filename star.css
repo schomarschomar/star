@@ -13,8 +13,12 @@
     background-color: darkblue;
 }
 
-canvas { 
+.canvas { 
     background: #eee;
     background-color: #f1f1f1;
     border:1px solid #d3d3d3;
+}
+
+.body {
+    background: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8"
 }
