@@ -1,14 +1,229 @@
 <!DOCTYPE html>
 <html>
-<body>
+
+<body id="body" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8">
+
+
+
+<style>
+
+.button {
+
+    background-color: #0e1b3d;
+
+    border: none;
+
+    color: lightblue;
+
+    padding: 5px 15px;
+
+    text-align: center;
+
+    font-size: 16px;
+
+    cursor: pointer;
+
+}
+
+.button:hover {
+
+    background-color: darkblue;
+
+}
+
+</style>
+
+
+
+<audio autoplay loop>
+
+<source src="BestOfRodnayMcKay.mp3" type="audio/mpeg">
+
+</audio>
+
+
+
+<button class="button">
+
+<a href="https://schomarschomar.github.io/star/"> +++++++++++++++++++ </a>
+
+</button>
+
+
+
+<p> </p>
 
 <h2>Dice</h2>
 
-<p id="demo"></p>
+<button onclick="roll()">Roll</button>
+
+<p> </p>
+
+<div id="dice">
+
+<span id="1" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+<span id="2" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+<span id="3" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+<span id="4" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+<span id="5" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+<span id="6" style="display:none">
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+<svg width="25" height="25">
+  <rect width="100" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+  Sorry, your browser does not support inline SVG.  
+</svg>
+</span>
+
+</div>
+
 
 <script>
-document.getElementById("demo").innerHTML =
-Math.floor(Math.random() * 6) + 1;
+
+function roll() {
+var x = Math.floor(Math.random() * 6) + 1;
+
+switch(x) {
+    case 1:
+        document.getElementById("1").style.display = "block";
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "none";
+        break;
+    case 2:
+        document.getElementById("1").style.display = "none";      
+        document.getElementById("2").style.display = "block";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "none";
+        break;
+    case 3:
+        document.getElementById("1").style.display = "none";      
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "block";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "none";
+        break;
+    case 4:
+        document.getElementById("1").style.display = "none";      
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "block";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "none";
+        break;
+    case 5:
+        document.getElementById("1").style.display = "none";      
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "block";
+        document.getElementById("6").style.display = "none";
+        break;
+    case 6:
+        document.getElementById("1").style.display = "none";      
+        document.getElementById("2").style.display = "none";
+        document.getElementById("3").style.display = "none";
+        document.getElementById("4").style.display = "none";
+        document.getElementById("5").style.display = "none";
+        document.getElementById("6").style.display = "block";
+        break;
+    default:
+        document.getElementById("5").innerHTML = x;
+} 
+}
 </script>
 
 </body>
