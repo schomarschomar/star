@@ -9,17 +9,16 @@ body {
 * {
   box-sizing: border-box;
 }
+
+/* class */
 .menu {
   float:left;
   width:20%;
   text-align:center;
 }
-
-/* class */
-
 .menu a {
   background-color:darkblue;
-    padding:8px;
+  padding:8px;
   margin-top:7px;
   display:block;
   width:100%;
@@ -34,9 +33,11 @@ body {
   background-color:darkblue;
   float:left;
   width:20%;
+  height:70%
   padding:15px;
   margin-top:7px;
   text-align:center;
+  color:white;
 }
 @media only screen and (max-width:620px) {
   /* For mobile phones: */
