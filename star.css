@@ -54,8 +54,8 @@ body {
 }
 
 .prompt {
-   resize: none;
-    rows:"2"; 
-    cols:"25";
+    resize: none;
+    rows: 2; 
+    cols: 25;
     background-color: grey;
 }
