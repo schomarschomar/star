@@ -58,8 +58,8 @@ body {
     border: 3px solid grey;
     padding: 1px; 
     resize: none;
-    rows: 2; 
-    cols: 25;
+    rows: 1; 
+    cols: 18;
     background-color: grey;
     }
 
