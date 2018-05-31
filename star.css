@@ -55,4 +55,6 @@ body {
 
 .prompt {
    resize: none;
+    width: 20px;
+    height: 120px;
 }
