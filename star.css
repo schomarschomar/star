@@ -33,4 +33,11 @@ body {
     width: 200px;
     height: 150px;    
 }
-   
+
+.teamimg {
+    border-radius: 25px;
+    border: 4px solid darkblue;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
