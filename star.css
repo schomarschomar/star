@@ -37,7 +37,7 @@ body {
 
 .tileimgframe {
     border-radius: 8px;
-    border: 2px solid darkblue;
+    border: 0px solid darkblue;
     padding: 1px; 
     width: 200px;
     height: 150px;
