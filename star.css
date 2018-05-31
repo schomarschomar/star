@@ -5,6 +5,45 @@ body {
 }
 
 /* class */
+
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+
+/* class */
+
+.menu a {
+  background-color:darkblue;
+    padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:white;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:darkblue;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
 .
 .button {
     background-color: #0e1b3d;
@@ -15,17 +54,14 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
-
 .button:hover {
     background-color: darkblue;
 }
-
 .canvas { 
     background: #eee;
     background-color: #f1f1f1;
     border:1px solid #d3d3d3;
 }
-
 .pcimgframe {
     border-radius: 25px;
     border: 10px solid grey;
@@ -34,7 +70,6 @@ body {
     height: 250px; 
     object-fit: cover;
 }
-
 .tileimgframe {
     border-radius: 8px;
     border: 0px solid darkblue;
@@ -43,7 +78,6 @@ body {
     height: 350px;
     object-fit: cover;
 }
-
 .teamimgframe {
     border-radius: 8px;
     border: 2px solid darkblue;
@@ -52,7 +86,6 @@ body {
     height: 250px;  
     object-fit: cover;
 }
-
 .promptframe {
     border-radius: 5px;
     border: 3px solid grey;
@@ -62,7 +95,6 @@ body {
     cols: 18;
     background-color: grey;
     }
-
 .promptbutton {
     border-radius: 5px;
     background-color: grey;
@@ -78,13 +110,11 @@ body {
     cursor: pointer;
     height: 100%;
 }
-
 .flex-container {
   display: flex;
   flex-wrap: nowrap;
   margin: 10px;
 }
-
 .flex-container > div {
   background-color: darkblue;
   width: 100px;
