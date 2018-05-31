@@ -26,20 +26,21 @@
     <div>8</div>
 </div>
 
+<span>    
 <img id="pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjor1Eofvyl_L8yHSNlRY4j4QsDiXfciw3gQR4UVAyOT1ijeTYeA
 " alt="Gate" class="pcimgframe">
+</span>
 
-<p> </p>
-
-<textarea id="prompt"></textarea>
-<button onclick="myFunction()">*!*</button>
-<p> </p>
-
-<p id="answer"> ===>>> ??? </p>
-
+<span>
+<textarea id="prompt" class="promptframe"></textarea>
+<button type="submit" onclick="myFunction()" class="promptbutton"> GO </button>
+</span>
+    
+More...	
+	
 <script>
 function myFunction() {
-    var x = document.getElementById("Command").value;
+    var x = document.getElementById("prompt").value;
     
     switch(x) {
     case "1":
