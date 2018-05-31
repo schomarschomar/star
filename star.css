@@ -26,12 +26,13 @@ body {
     border:1px solid #d3d3d3;
 }
 
-.pc {
-    height: 14%;
-    width: 20%;
-    background-color: powderblue;
-    border: 0px;
-} 
-
-
+.pcframe {
+    border-radius: 25px;
+    background: url(paper.gif);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
    
