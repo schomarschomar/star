@@ -15,10 +15,10 @@ body {
 .menu {
   float:left;
   width:15%;
-  text-align:center;
+  text-align:left;
 }
 .menu a {
-  background-color:darkblue;
+  
   padding:8px;
   margin-top:7px;
   display:block;
