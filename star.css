@@ -36,7 +36,7 @@ body {
 }
 
 .tileimgframe {
-    border-radius: 25px;
+    border-radius: 8px;
     border: 2px solid darkblue;
     padding: 1px; 
     width: 200px;
@@ -45,7 +45,7 @@ body {
 }
 
 .teamimgframe {
-    border-radius: 25px;
+    border-radius: 8px;
     border: 2px solid darkblue;
     padding: 1px; 
     width: 200px;
