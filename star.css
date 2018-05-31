@@ -48,7 +48,7 @@ body {
     border-radius: 8px;
     border: 2px solid darkblue;
     padding: 1px; 
-    width: 150px;
+    width: 200px;
     height: 250px;  
     object-fit: cover;
 }
