@@ -53,23 +53,17 @@ body {
     object-fit: cover;
 }
 
-
-.promtframe {
+.promptframe {
     border-radius: 5px;
     border: 3px solid grey;
     padding: 1px; 
     width: 200px;
     height: 50px; 
-    }
-
-.prompt {
     resize: none;
     rows: 2; 
     cols: 25;
     background-color: grey;
-}
-
-
+    }
 
 .flex-container {
   display: flex;
