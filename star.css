@@ -1,5 +1,10 @@
+/* element */
 
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8");
+}
 
+/* class */
 .
 .button {
     background-color: #0e1b3d;
@@ -27,9 +32,6 @@
     background-color: powderblue;
     border: 0px;
 } 
-} 
 
-body {
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu7WdQmAV5ivJmEfEUiiRP1gK8AwOF8RrkxK-rhQHbh1KhdlS8");
-}
+
    
