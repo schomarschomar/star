@@ -31,7 +31,8 @@ body {
     border: 2px solid darkblue;
     padding: 20px; 
     width: 200px;
-    height: 150px;    
+    height: 150px; 
+    object-fit: cover;
 }
 
 .tileimgframe {
@@ -39,7 +40,8 @@ body {
     border: 2px solid darkblue;
     padding: 20px; 
     width: 200px;
-    height: 150px;    
+    height: 150px;
+    object-fit: cover;
 }
 
 .teamimgframe {
@@ -47,5 +49,6 @@ body {
     border: 4px solid darkblue;
     padding: 1px; 
     width: 200px;
-    height: 150px;    
+    height: 150px;  
+    object-fit: cover;
 }
